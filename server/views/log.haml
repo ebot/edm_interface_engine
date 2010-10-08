@@ -1,0 +1,14 @@
+%h2 Transactions
+%table
+  %tr
+    %th Encoutner
+    %th Doc Type Name
+    %th Time
+    %th File
+  - @transactions.reverse.each do |transaction|
+    %tr
+      %td= transaction[:encounter_number]
+      %td= transaction[:doc_type_name]
+      %td= transaction[:time].strftime("%m/%d/%Y %H:%M:%S")
+      %td
+        %a{ :href => "/#{transaction[:local_file_name]}"}= transaction[:doc_id]

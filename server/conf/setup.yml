@@ -1,0 +1,34 @@
+---
+:edm_server:
+  :server_name: user_name 
+  :hospital_region_code: hhtt 
+  :user_name: user
+  :password: pass
+  :debug: false
+:file_formats:
+  "-1": na
+  "-10": asf
+  "-11": avi
+  "-12": bmp
+  "-13": doc
+  "-14": gif
+  "-15": htm
+  "-16": jpg
+  "-17": mdb
+  "-18": mov
+  "-19": mp3
+  "-20": png
+  "-21": ppt
+  "-22": rtf
+  "-23": snp
+  "-24": tif
+  "-25": txt
+  "-26": wav
+  "-27": xls
+  "-28": xml
+  "-30": txt
+  "-32": pdf
+  "-33": xml
+  "-201": pdf
+  "-202": xml
+  "-203": xml
